@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    user-select: none;
+    margin: 0; 
+}
+#c11{
+    display: flex;
+    justify-content: space-between;
+}
+#c12{
+    background-color: #4b17ea;
+    color: aliceblue;
+    font-size: 1.1vw;
+    padding: 1.1%;
+    width: 24%;
+    padding-left: 1.6%;
+    padding-right: 0%;
+    font-weight: 600;
+    border-radius: 0px 30px 31px 32px;
+    z-index: 2;
+}
+#c13{
+    background-color: #4b17ea; 
+    color:aliceblue;  
+    font-size: 1.3vw;
+    padding: 1.2%;
+    padding-right: 4%;
+    padding-left: 3%;
+    font-weight: 500;
+    z-index: 2;
+ }
+ #line1{
+    border:none;
+    border-top:1px dashed;/* or bottom */
+    margin-top: -1px;
+    margin-left: 20%;
+ }
+ #ic1{
+    font-size: 123.4%;
+    position: absolute;
+    margin-left: -1.8%;
+    margin-top: .2%;
+ }
+ #c21{
+     display: flex;
+     justify-content: flex-end;
+ }
+ #c22{
+     font-size: 1.1vw;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     margin-top: 0;
+     margin-right:6%;
+ }
+ #c31{
+     background-color: #dedefe;
+     padding: 1%;
+     padding-bottom: 0.6%;
+ }
+ #nav1{
+    font-family: 'Montserrat', sans-serif;
+     display: flex;
+     justify-content: flex-end;
+     list-style: none;
+ }
+ img{
+     vertical-align: middle;
+ }
+ #nav1 li{
+     margin-right:5%;
+     font-size: 2%;
+     font-size: 1.5vw;
+ }
+ #home{
+    font-weight: 700;
+ }
+ #aakr{
+    margin-left: 3%;
+    position: absolute;
+    font-size: 1.8vw;
+    background-color: rgb(75, 23, 234);
+    color: aliceblue;
+    padding: .7% 2% .7% 4.4%;
+    font-weight: 600;
+    border-radius: 7px;
+}
+ #c41{
+     display:flex;
+     justify-content: flex-end;
+ }
+ #c42{
+     font-size: 1vw;
+     margin-right: 4%;
+ }
+ #line2{
+     border: none;
+     border-top: 3px solid #4200FF;
+ }
+ #slider1{
+    height: 424px;
+    width: 1457px;
+    padding-left: 79px;
+ }
+ #pic_text1{
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 66px;
+    font-size: 39px;
+    font-weight:bolder;
+ }
+ #pic_text2{    
+    font-weight: 900;
+    position: absolute;
+    font-size: 22px;
+    margin-top: 142px;
+    margin-left: 175px;
+    width: 488px;
+ }
+ #pic_text3{    
+    font-weight: 900;
+    position: absolute;
+    font-size: 22px;
+    margin-top: 253px;
+    margin-left: 175px;
+    width: 488px;
+ }
+ #call_now{
+    position: absolute;
+    padding: 17px 113px 17px 50px;
+    font-size: 29px;
+    background: #FFC1C1;
+    display: inline;
+    margin-top: 303px;
+    margin-left: 176px;
+    border-radius: 50px;
+    border: 1px solid rgb(72, 112, 224);
+ }
+ #call_icon{
+    width: 70px;
+ }
+ #line3{
+    border:none;
+    border-top: 1px solid black;
+    margin-left:160px;
+    margin-right:160px;
+ }
+ #grid_1{
+     display: grid;
+     grid-template-columns:repeat(3,9fr);
+     margin-left: 125px;
+ }
+ #gp1{
+    height: 375px;
+ }
+ #video
+ {
+     padding: 30px 140px 0px 140px;
+ }
+ #video #video_text{
+    border-bottom: 5px #D1D1D1 solid;
+    padding-bottom: 6px;
+    display: inline;
+
+ }
+ #video .video_container{
+    background: #D1D1D1;
+    height: 597px;
+    width: 1228px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #video .video_container #video_image{
+     height: 150px;
+ }
+ .emojis{
+     padding: 110px;
+     text-align: center;
+ }
+ .emojis h4{
+     font-size: 25px;
+ }
+ .emojis p{
+     font-size: 20px;
+ }
+ .emojis .allign_emoji{
+     padding-top: 80px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-row-gap: 50px;
+     grid-column-gap: 62px;
+ }
+ .emojis .allign_emoji img{
+    width: 128px;
+ }
+ .emojis .allign_emoji #containers {
+    display: inline-flex;
+    align-items: center;
+ }
+ .emojis .allign_emoji #containers #emoji_id{
+    background: #E0F5F5;
+    padding: 10px 48px 19px 90px;
+    margin-left: -68px;
+    z-index: -1;
+    border-radius: 50px;
+ }
+ #foot{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    background: #494848;
+    color:#FFF9F9;
+ }
+ #foot_icons{
+     display: flex;
+     margin: 0;
+     align-items: center;
+ }
+ #completed{
+    text-align: center;
+    color:#FFF9F9;
+    background: #494848;
+    padding-bottom: 70px;
+    font-size: 16px;
+ }
